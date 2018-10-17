@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1749B8C2177331400046BF2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749B8B2177331400046BF2 /* AppDelegate.m */; };
+		C1749B8F2177331400046BF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749B8E2177331400046BF2 /* ViewController.m */; };
+		C1749B922177331400046BF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1749B902177331400046BF2 /* Main.storyboard */; };
+		C1749B942177331500046BF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1749B932177331500046BF2 /* Assets.xcassets */; };
+		C1749B972177331500046BF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1749B952177331500046BF2 /* LaunchScreen.storyboard */; };
+		C1749B9A2177331500046BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749B992177331500046BF2 /* main.m */; };
+		C1749BA42177331500046BF2 /* saoleiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749BA32177331500046BF2 /* saoleiTests.m */; };
+		C1749BAF2177331600046BF2 /* saoleiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749BAE2177331600046BF2 /* saoleiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1749BA02177331500046BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1749B7F2177331400046BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1749B862177331400046BF2;
+			remoteInfo = saolei;
+		};
+		C1749BAB2177331600046BF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1749B7F2177331400046BF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1749B862177331400046BF2;
+			remoteInfo = saolei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1749B872177331400046BF2 /* saolei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = saolei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1749B8A2177331400046BF2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1749B8B2177331400046BF2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1749B8D2177331400046BF2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1749B8E2177331400046BF2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1749B912177331400046BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1749B932177331500046BF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1749B962177331500046BF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1749B982177331500046BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1749B992177331500046BF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1749B9F2177331500046BF2 /* saoleiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saoleiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1749BA32177331500046BF2 /* saoleiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saoleiTests.m; sourceTree = "<group>"; };
+		C1749BA52177331500046BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1749BAA2177331600046BF2 /* saoleiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saoleiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1749BAE2177331600046BF2 /* saoleiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saoleiUITests.m; sourceTree = "<group>"; };
+		C1749BB02177331600046BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1749B842177331400046BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1749B9C2177331500046BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1749BA72177331600046BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1749B7E2177331400046BF2 = {
+			isa = PBXGroup;
+			children = (
+				C1749B892177331400046BF2 /* saolei */,
+				C1749BA22177331500046BF2 /* saoleiTests */,
+				C1749BAD2177331600046BF2 /* saoleiUITests */,
+				C1749B882177331400046BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1749B882177331400046BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1749B872177331400046BF2 /* saolei.app */,
+				C1749B9F2177331500046BF2 /* saoleiTests.xctest */,
+				C1749BAA2177331600046BF2 /* saoleiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1749B892177331400046BF2 /* saolei */ = {
+			isa = PBXGroup;
+			children = (
+				C1749B8A2177331400046BF2 /* AppDelegate.h */,
+				C1749B8B2177331400046BF2 /* AppDelegate.m */,
+				C1749B8D2177331400046BF2 /* ViewController.h */,
+				C1749B8E2177331400046BF2 /* ViewController.m */,
+				C1749B902177331400046BF2 /* Main.storyboard */,
+				C1749B932177331500046BF2 /* Assets.xcassets */,
+				C1749B952177331500046BF2 /* LaunchScreen.storyboard */,
+				C1749B982177331500046BF2 /* Info.plist */,
+				C1749B992177331500046BF2 /* main.m */,
+			);
+			path = saolei;
+			sourceTree = "<group>";
+		};
+		C1749BA22177331500046BF2 /* saoleiTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1749BA32177331500046BF2 /* saoleiTests.m */,
+				C1749BA52177331500046BF2 /* Info.plist */,
+			);
+			path = saoleiTests;
+			sourceTree = "<group>";
+		};
+		C1749BAD2177331600046BF2 /* saoleiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1749BAE2177331600046BF2 /* saoleiUITests.m */,
+				C1749BB02177331600046BF2 /* Info.plist */,
+			);
+			path = saoleiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1749B862177331400046BF2 /* saolei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1749BB32177331600046BF2 /* Build configuration list for PBXNativeTarget "saolei" */;
+			buildPhases = (
+				C1749B832177331400046BF2 /* Sources */,
+				C1749B842177331400046BF2 /* Frameworks */,
+				C1749B852177331400046BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = saolei;
+			productName = saolei;
+			productReference = C1749B872177331400046BF2 /* saolei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1749B9E2177331500046BF2 /* saoleiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1749BB62177331600046BF2 /* Build configuration list for PBXNativeTarget "saoleiTests" */;
+			buildPhases = (
+				C1749B9B2177331500046BF2 /* Sources */,
+				C1749B9C2177331500046BF2 /* Frameworks */,
+				C1749B9D2177331500046BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1749BA12177331500046BF2 /* PBXTargetDependency */,
+			);
+			name = saoleiTests;
+			productName = saoleiTests;
+			productReference = C1749B9F2177331500046BF2 /* saoleiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1749BA92177331600046BF2 /* saoleiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1749BB92177331600046BF2 /* Build configuration list for PBXNativeTarget "saoleiUITests" */;
+			buildPhases = (
+				C1749BA62177331600046BF2 /* Sources */,
+				C1749BA72177331600046BF2 /* Frameworks */,
+				C1749BA82177331600046BF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1749BAC2177331600046BF2 /* PBXTargetDependency */,
+			);
+			name = saoleiUITests;
+			productName = saoleiUITests;
+			productReference = C1749BAA2177331600046BF2 /* saoleiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1749B7F2177331400046BF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = lxk;
+				TargetAttributes = {
+					C1749B862177331400046BF2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					C1749B9E2177331500046BF2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C1749B862177331400046BF2;
+					};
+					C1749BA92177331600046BF2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = C1749B862177331400046BF2;
+					};
+				};
+			};
+			buildConfigurationList = C1749B822177331400046BF2 /* Build configuration list for PBXProject "saolei" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1749B7E2177331400046BF2;
+			productRefGroup = C1749B882177331400046BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1749B862177331400046BF2 /* saolei */,
+				C1749B9E2177331500046BF2 /* saoleiTests */,
+				C1749BA92177331600046BF2 /* saoleiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1749B852177331400046BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1749B972177331500046BF2 /* LaunchScreen.storyboard in Resources */,
+				C1749B942177331500046BF2 /* Assets.xcassets in Resources */,
+				C1749B922177331400046BF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1749B9D2177331500046BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1749BA82177331600046BF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1749B832177331400046BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1749B8F2177331400046BF2 /* ViewController.m in Sources */,
+				C1749B9A2177331500046BF2 /* main.m in Sources */,
+				C1749B8C2177331400046BF2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1749B9B2177331500046BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1749BA42177331500046BF2 /* saoleiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1749BA62177331600046BF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1749BAF2177331600046BF2 /* saoleiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1749BA12177331500046BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1749B862177331400046BF2 /* saolei */;
+			targetProxy = C1749BA02177331500046BF2 /* PBXContainerItemProxy */;
+		};
+		C1749BAC2177331600046BF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1749B862177331400046BF2 /* saolei */;
+			targetProxy = C1749BAB2177331600046BF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1749B902177331400046BF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1749B912177331400046BF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1749B952177331500046BF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1749B962177331500046BF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1749BB12177331600046BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1749BB22177331600046BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1749BB42177331600046BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saolei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffsfssf.saolei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1749BB52177331600046BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saolei/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffsfssf.saolei;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1749BB72177331600046BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saoleiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffsfssf.saoleiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saolei.app/saolei";
+			};
+			name = Debug;
+		};
+		C1749BB82177331600046BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saoleiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffsfssf.saoleiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/saolei.app/saolei";
+			};
+			name = Release;
+		};
+		C1749BBA2177331600046BF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saoleiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffsfssf.saoleiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = saolei;
+			};
+			name = Debug;
+		};
+		C1749BBB2177331600046BF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = saoleiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ffsfssf.saoleiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = saolei;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1749B822177331400046BF2 /* Build configuration list for PBXProject "saolei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1749BB12177331600046BF2 /* Debug */,
+				C1749BB22177331600046BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1749BB32177331600046BF2 /* Build configuration list for PBXNativeTarget "saolei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1749BB42177331600046BF2 /* Debug */,
+				C1749BB52177331600046BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1749BB62177331600046BF2 /* Build configuration list for PBXNativeTarget "saoleiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1749BB72177331600046BF2 /* Debug */,
+				C1749BB82177331600046BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1749BB92177331600046BF2 /* Build configuration list for PBXNativeTarget "saoleiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1749BBA2177331600046BF2 /* Debug */,
+				C1749BBB2177331600046BF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1749B7F2177331400046BF2 /* Project object */;
+}
