@@ -15,6 +15,8 @@
 		C1749B9A2177331500046BF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749B992177331500046BF2 /* main.m */; };
 		C1749BA42177331500046BF2 /* saoleiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749BA32177331500046BF2 /* saoleiTests.m */; };
 		C1749BAF2177331600046BF2 /* saoleiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749BAE2177331600046BF2 /* saoleiUITests.m */; };
+		C1749BBE2177337600046BF2 /* SaoleiView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749BBD2177337600046BF2 /* SaoleiView.m */; };
+		C1749BC12177345600046BF2 /* LeiView.m in Sources */ = {isa = PBXBuildFile; fileRef = C1749BC02177345600046BF2 /* LeiView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		C1749BAA2177331600046BF2 /* saoleiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = saoleiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1749BAE2177331600046BF2 /* saoleiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = saoleiUITests.m; sourceTree = "<group>"; };
 		C1749BB02177331600046BF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1749BBC2177337600046BF2 /* SaoleiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaoleiView.h; sourceTree = "<group>"; };
+		C1749BBD2177337600046BF2 /* SaoleiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaoleiView.m; sourceTree = "<group>"; };
+		C1749BBF2177345600046BF2 /* LeiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeiView.h; sourceTree = "<group>"; };
+		C1749BC02177345600046BF2 /* LeiView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeiView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +111,11 @@
 				C1749B8B2177331400046BF2 /* AppDelegate.m */,
 				C1749B8D2177331400046BF2 /* ViewController.h */,
 				C1749B8E2177331400046BF2 /* ViewController.m */,
+				C1749BBC2177337600046BF2 /* SaoleiView.h */,
+				C1749BBD2177337600046BF2 /* SaoleiView.m */,
 				C1749B902177331400046BF2 /* Main.storyboard */,
+				C1749BBF2177345600046BF2 /* LeiView.h */,
+				C1749BC02177345600046BF2 /* LeiView.m */,
 				C1749B932177331500046BF2 /* Assets.xcassets */,
 				C1749B952177331500046BF2 /* LaunchScreen.storyboard */,
 				C1749B982177331500046BF2 /* Info.plist */,
@@ -264,7 +274,9 @@
 			files = (
 				C1749B8F2177331400046BF2 /* ViewController.m in Sources */,
 				C1749B9A2177331500046BF2 /* main.m in Sources */,
+				C1749BC12177345600046BF2 /* LeiView.m in Sources */,
 				C1749B8C2177331400046BF2 /* AppDelegate.m in Sources */,
+				C1749BBE2177337600046BF2 /* SaoleiView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568DTCA3KC;
 				INFOPLIST_FILE = saolei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +465,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 568DTCA3KC;
 				INFOPLIST_FILE = saolei/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

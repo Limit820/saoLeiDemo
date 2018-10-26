@@ -10,8 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SaoleiView : UIView
-
+@interface SaoleiView : UIView<UIAlertViewDelegate>
+@property (nonatomic, assign) int leiNum;
+@property (nonatomic, assign) BOOL hasShowAlert;
 @end
 
 NS_ASSUME_NONNULL_END
